@@ -47,6 +47,7 @@ type sdkConfiguration struct {
 	OpenAPIDocVersion string
 	SDKVersion        string
 	GenVersion        string
+	UserAgent         string
 	RetryConfig       *utils.RetryConfig
 }
 
@@ -101,6 +102,11 @@ func WithClient(client HTTPClient) SDKOption {
 		sdk.sdkConfiguration.DefaultClient = client
 	}
 }
+func withSecurity(security interface{}) func(context.Context) (interface{}, error) {
+	return func(context.Context) (interface{}, error) {
+		return &security, nil
+	}
+}
 
 func WithRetryConfig(retryConfig utils.RetryConfig) SDKOption {
 	return func(sdk *Petstore) {
@@ -114,8 +120,9 @@ func New(opts ...SDKOption) *Petstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "0.1.0",
-			GenVersion:        "2.130.1",
+			SDKVersion:        "0.2.0",
+			GenVersion:        "2.139.2",
+			UserAgent:         "speakeasy-sdk/go 0.2.0 2.139.2 1.0.0 github.com/speakeasy-sdks/m7KGG-go-petstore",
 		},
 	}
 	for _, opt := range opts {
