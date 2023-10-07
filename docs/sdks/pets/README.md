@@ -69,9 +69,7 @@ func main() {
     s := m7kgggopetstore.New()
 
     ctx := context.Background()
-    res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: m7kgggopetstore.Int(548814),
-    })
+    res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{})
     if err != nil {
         log.Fatal(err)
     }
@@ -116,7 +114,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{
-        PetID: "provident",
+        PetID: "South bandwidth male",
     })
     if err != nil {
         log.Fatal(err)
