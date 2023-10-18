@@ -19,25 +19,26 @@ go get github.com/speakeasy-sdks/m7KGG-go-petstore
 ```go
 package main
 
-import(
+import (
 	"context"
-	"log"
 	m7kgggopetstore "github.com/speakeasy-sdks/m7KGG-go-petstore"
+	"log"
 )
 
 func main() {
-    s := m7kgggopetstore.New()
+	s := m7kgggopetstore.New()
 
-    ctx := context.Background()
-    res, err := s.Pets.CreatePets(ctx)
-    if err != nil {
-        log.Fatal(err)
-    }
+	ctx := context.Background()
+	res, err := s.Pets.CreatePets(ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
 
-    if res.StatusCode == http.StatusOK {
-        // handle response
-    }
+	if res.StatusCode == http.StatusOK {
+		// handle response
+	}
 }
+
 ```
 <!-- End SDK Example Usage -->
 
