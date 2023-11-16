@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -8,6 +6,7 @@ import (
 	"context"
 	m7kgggopetstore "github.com/speakeasy-sdks/m7KGG-go-petstore"
 	"log"
+	"net/http"
 )
 
 func main() {
