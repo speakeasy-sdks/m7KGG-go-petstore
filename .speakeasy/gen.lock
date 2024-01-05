@@ -1,0 +1,55 @@
+lockVersion: 2.0.0
+id: d858eafa-a48d-4e14-9628-308d3a1fc302
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.5.1
+  configChecksum: 42d9df2b9a6e94bd957dcea506680cb2
+  repoURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore
+  published: true
+features:
+  go:
+    core: 3.3.0
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - pets.go
+  - petstore.go
+  - go.mod
+  - go.sum
+  - tests/helpers.go
+  - pkg/models/sdkerrors/sdkerror.go
+  - pkg/types/bigint.go
+  - pkg/types/date.go
+  - pkg/types/datetime.go
+  - pkg/types/decimal.go
+  - pkg/types/pointers.go
+  - pkg/utils/contenttype.go
+  - pkg/utils/form.go
+  - pkg/utils/headers.go
+  - pkg/utils/json.go
+  - pkg/utils/pathparams.go
+  - pkg/utils/queryparams.go
+  - pkg/utils/requestbody.go
+  - pkg/utils/retries.go
+  - pkg/utils/security.go
+  - pkg/utils/utils.go
+  - /pkg/models/operations/createpets.go
+  - /pkg/models/operations/listpets.go
+  - /pkg/models/operations/showpetbyid.go
+  - /pkg/models/shared/error.go
+  - /pkg/models/shared/pet.go
+  - docs/pkg/models/operations/createpetsresponse.md
+  - docs/pkg/models/operations/listpetsrequest.md
+  - docs/pkg/models/operations/listpetsresponse.md
+  - docs/pkg/models/operations/showpetbyidrequest.md
+  - docs/pkg/models/operations/showpetbyidresponse.md
+  - docs/pkg/models/shared/error.md
+  - docs/pkg/models/shared/pet.md
+  - docs/sdks/petstore/README.md
+  - docs/sdks/pets/README.md
+  - USAGE.md
+  - .gitattributes
