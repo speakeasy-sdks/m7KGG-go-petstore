@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: d858eafa-a48d-4e14-9628-308d3a1fc302
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.5.1
-  configChecksum: 42d9df2b9a6e94bd957dcea506680cb2
+  generationVersion: 2.230.3
+  releaseVersion: 0.5.2
+  configChecksum: 24d8b788bea3d1f228011bb29bb20b20
   repoURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore

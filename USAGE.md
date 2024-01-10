@@ -5,6 +5,7 @@ package main
 import (
 	"context"
 	m7kgggopetstore "github.com/speakeasy-sdks/m7KGG-go-petstore"
+	"github.com/speakeasy-sdks/m7KGG-go-petstore/pkg/models/shared"
 	"log"
 	"net/http"
 )
@@ -13,7 +14,10 @@ func main() {
 	s := m7kgggopetstore.New()
 
 	ctx := context.Background()
-	res, err := s.Pets.CreatePets(ctx)
+	res, err := s.Pets.CreatePets(ctx, shared.Pet{
+		ID:   596804,
+		Name: "string",
+	})
 	if err != nil {
 		log.Fatal(err)
 	}
