@@ -1,6 +1,6 @@
 module github.com/speakeasy-sdks/m7KGG-go-petstore
 
-go 1.14
+go 1.20
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.0
