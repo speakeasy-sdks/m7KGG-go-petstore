@@ -4,7 +4,7 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.234.3
+  generationVersion: 2.237.2
   releaseVersion: 0.5.3
   configChecksum: 30a495baaa948a68c95bcaf738dba7c3
   repoURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore.git
@@ -20,7 +20,6 @@ generatedFiles:
   - petstore.go
   - go.mod
   - go.sum
-  - tests/helpers.go
   - pkg/models/sdkerrors/sdkerror.go
   - pkg/types/bigint.go
   - pkg/types/date.go
