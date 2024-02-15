@@ -4,16 +4,16 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.250.2
-  releaseVersion: 0.6.0
-  configChecksum: d1d51391b994b216a0de75a661c4381c
+  generationVersion: 2.258.2
+  releaseVersion: 0.7.0
+  configChecksum: 49148e3cd380db6f7b90f6275111530b
   repoURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/m7KGG-go-petstore
   published: true
 features:
   go:
-    core: 3.3.2
+    core: 3.4.0
     globalServerURLs: 2.82.1
 generatedFiles:
   - pets.go
@@ -52,3 +52,4 @@ generatedFiles:
   - docs/sdks/pets/README.md
   - USAGE.md
   - .gitattributes
+  - internal/hooks/hooks.go
